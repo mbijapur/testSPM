@@ -16,13 +16,8 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-//        .binaryTarget(name: "MarketoPackage", path: "./Sources/Marketo.xcframework"),
         .binaryTarget(name: "MarketoPackage",
-                      url: "https://github.com/mbijapur/testSPM/blob/main/Sources/Marketo.xcframework.zip",
-<<<<<<< HEAD
-                      checksum: "5aea19e15a6a22c6cc603de42a58d7c24f6dd0057f3dd10572e0472faed5302b")
-=======
+                      url: "https://github.com/mbijapur/testSPM/blob/main/Sources/MarketoFramework.xcframework.zip",
                       checksum: "0d62854aedc342515da743458e4404b2813d50898f89dfff5611cdadd1f3f6b2")
->>>>>>> c7632e0 (initial commit)
     ]
 )
