@@ -19,6 +19,6 @@ let package = Package(
 //        .binaryTarget(name: "MarketoPackage", path: "./Sources/Marketo.xcframework"),
         .binaryTarget(name: "MarketoPackage",
                       url: "https://github.com/mbijapur/testSPM/blob/main/Sources/Marketo.xcframework.zip",
-                      checksum: "8e987eb23b8b914a5553180b348209e914fa8d6829e66fa2c1ce6abb5582273f")
+                      checksum: "5aea19e15a6a22c6cc603de42a58d7c24f6dd0057f3dd10572e0472faed5302b")
     ]
 )
